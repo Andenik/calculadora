@@ -31,6 +31,14 @@ while True:
         print(f'{float(numero_1) / float(numero_2)}')
     elif operador == '*':
         print(f'{float(numero_1) * float(numero_2)}')
+    
+    menu_final = input("Deseja realizar outra operacao ? (s/n)").lower
+
+    if menu_final is "s":
+        continue
+    else:
+        print('finalizando aplicacao')
+        break
 
 
 
